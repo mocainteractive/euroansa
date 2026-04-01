@@ -76,7 +76,7 @@
           {
             "@type": "Question",
             "name": "Qual è il LTV massimo per un mutuo seconda casa?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Per il mutuo seconda casa il LTV (Loan-to-Value) massimo è generalmente dell'80%, ovvero la banca può finanziare al massimo l'80% del valore periziato dell'immobile. Il restante 20% deve essere coperto con fondi propri come anticipo, a differenza della prima casa dove è possibile accedere al 100% tramite garanzia Consap." }
+            "acceptedAnswer": { "@type": "Answer", "text": "Per il mutuo seconda casa il LTV (Loan-to-Value) massimo è generalmente dell'80%, ovvero la banca può finanziare al massimo l'80% del valore periziato dell'immobile. Il restante 20% deve essere coperto con fondi propri come anticipo." }
           },
           {
             "@type": "Question",
@@ -325,7 +325,7 @@
         Il mutuo seconda casa è un finanziamento ipotecario destinato all'acquisto di una proprietà immobiliare che non sarà utilizzata come abitazione principale. Può trattarsi di una casa al mare, in montagna, in campagna oppure di un investimento immobiliare. Le regole del gioco sono diverse rispetto alla prima casa, in particolare per quanto riguarda il LTV, l'imposta sostitutiva e le agevolazioni fiscali.
       </p>
       <p class="text-[17px] text-gray-700 leading-relaxed mb-10">
-        La differenza più rilevante è che la banca interviene nell'operazione per un <strong class="text-brand-darker">massimo dell'80%</strong> del valore periziato, contro il 100% ottenibile per la prima casa tramite garanzia Consap. Il 20% restante deve essere coperto con fondi propri o tramite estensione dell'ipoteca sull'immobile già di proprietà.
+        La differenza più rilevante è che la banca interviene nell'operazione per un <strong class="text-brand-darker">massimo dell'80%</strong> del valore periziato. Il 20% restante deve essere coperto con fondi propri o tramite estensione dell'ipoteca sull'immobile già di proprietà.
       </p>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
@@ -482,7 +482,7 @@
           <tbody class="text-[14px] text-gray-700 divide-y divide-gray-100 bg-white">
             <tr class="hover:bg-gray-50 transition">
               <td class="py-3 px-5 font-bold text-brand-darker">LTV massimo</td>
-              <td class="py-3 px-5">Fino al 100% (con Consap)</td>
+              <td class="py-3 px-5">Fino all'80% (o 100% con doppia ipoteca)</td>
               <td class="py-3 px-5 font-bold text-brand-accent">Fino all'80%</td>
             </tr>
             <tr class="hover:bg-gray-50 transition">
@@ -496,13 +496,8 @@
               <td class="py-3 px-5 text-red-500 font-bold">No</td>
             </tr>
             <tr class="hover:bg-gray-50 transition">
-              <td class="py-3 px-5 font-bold text-brand-darker">Garanzia Consap</td>
-              <td class="py-3 px-5 text-brand-green font-bold">Disponibile</td>
-              <td class="py-3 px-5 text-red-500 font-bold">Non disponibile</td>
-            </tr>
-            <tr class="hover:bg-gray-50 transition">
               <td class="py-3 px-5 font-bold text-brand-darker">Anticipo minimo</td>
-              <td class="py-3 px-5">0% (con Consap)</td>
+              <td class="py-3 px-5">0-20%</td>
               <td class="py-3 px-5 font-bold text-brand-accent">20% del valore</td>
             </tr>
             <tr class="hover:bg-gray-50 transition">
@@ -539,26 +534,26 @@
       <!-- Esempio pratico -->
       <div class="bg-brand-bgCard border border-brand-borderLight rounded-2xl p-8 mb-8">
         <p class="text-xs font-bold text-brand-accent uppercase tracking-wider mb-4">Simulazione di esempio</p>
-        <h3 class="text-xl font-bold text-brand-darker mb-6">Immobile da €200.000, mutuo all'80% a 25 anni</h3>
+        <h3 class="text-xl font-bold text-brand-darker mb-6">Immobile seconda casa da €180.000, mutuo a 20 anni</h3>
         <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-6">
           <div class="text-center">
             <p class="text-[11px] font-bold text-gray-400 uppercase tracking-wider mb-1">Valore immobile</p>
-            <p class="text-2xl font-black text-brand-darker">€200k</p>
+            <p class="text-2xl font-black text-brand-darker">€180k</p>
           </div>
           <div class="text-center">
-            <p class="text-[11px] font-bold text-gray-400 uppercase tracking-wider mb-1">Anticipo (20%)</p>
-            <p class="text-2xl font-black text-brand-accent">€40k</p>
+            <p class="text-[11px] font-bold text-gray-400 uppercase tracking-wider mb-1">Anticipo (33%)</p>
+            <p class="text-2xl font-black text-brand-accent">€60k</p>
           </div>
           <div class="text-center">
             <p class="text-[11px] font-bold text-gray-400 uppercase tracking-wider mb-1">Importo mutuo</p>
-            <p class="text-2xl font-black text-brand-darker">€160k</p>
+            <p class="text-2xl font-black text-brand-darker">€120k</p>
           </div>
           <div class="text-center">
             <p class="text-[11px] font-bold text-gray-400 uppercase tracking-wider mb-1">Rata mensile</p>
-            <p class="text-2xl font-black text-brand-price">~€860</p>
+            <p class="text-2xl font-black text-brand-price">~€680</p>
           </div>
         </div>
-        <p class="text-[13px] text-gray-500 italic">Simulazione indicativa. Tasso fisso 3,40% su 25 anni. I tassi variano in funzione del profilo e della banca scelta.</p>
+        <p class="text-[13px] text-gray-500 italic">Simulazione basata su un profilo standard con LTV al 66%. Tasso fisso stimato 3,30%. I tassi variano in funzione del merito creditizio.</p>
       </div>
 
       <div class="space-y-6 mb-12">
@@ -1161,16 +1156,16 @@
           <h4 class="font-bold mb-5 text-[15px] text-white">Tipologie di Mutuo</h4>
           <ul class="space-y-3 text-[13px] text-gray-300">
             <li><a href="#" class="hover:text-white transition">Mutuo Prima Casa</a></li>
-            <li><a href="#" class="hover:text-white transition">Mutuo Under 36</a></li>
-            <li><a href="#" class="hover:text-white transition font-bold text-brand-accent">Mutuo Seconda Casa</a></li>
-            <li><a href="#" class="hover:text-white transition">Mutuo per Ristrutturazione</a></li>
-            <li><a href="#" class="hover:text-white transition">Mutuo Liquidità</a></li>
-            <li><a href="#" class="hover:text-white transition">Mutuo Green</a></li>
-            <li><a href="#" class="hover:text-white transition">Surroga Mutuo</a></li>
+            <li><a href="mutuo-under-36.html" class="hover:text-white transition">Mutuo Under 36</a></li>
+            <li><a href="mutuo-seconda-casa.html" class="hover:text-white transition font-bold text-brand-accent">Mutuo Seconda Casa</a></li>
+            <li><a href="mutuo-ristrutturazione.html" class="hover:text-white transition">Mutuo per Ristrutturazione</a></li>
+            <li><a href="mutuo-liquidita.html" class="hover:text-white transition">Mutuo Liquidità</a></li>
+            <li><a href="mutuo-green.html" class="hover:text-white transition">Mutuo Green</a></li>
+            <li><a href="mutuo-surroga.html" class="hover:text-white transition">Surroga Mutuo</a></li>
             <li><a href="#" class="hover:text-white transition">Mutuo 100%</a></li>
-            <li><a href="#" class="hover:text-white transition">Mutuo Consap</a></li>
-            <li><a href="#" class="hover:text-white transition">Mutuo Tasso Fisso</a></li>
-            <li><a href="#" class="hover:text-white transition">Mutuo Tasso Variabile</a></li>
+            <li><a href="mutuo-consap.html" class="hover:text-white transition">Mutuo Consap</a></li>
+            <li><a href="mutuo-tasso-fisso.html" class="hover:text-white transition">Mutuo Tasso Fisso</a></li>
+            <li><a href="mutuo-tasso-variabile.html" class="hover:text-white transition">Mutuo Tasso Variabile</a></li>
           </ul>
         </div>
         <div>
